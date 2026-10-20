@@ -1,0 +1,17 @@
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# 千万不要上传的密码数据与密钥
+*.dat
+*.vkey
+*.vkb
+.vault_keys/
+backups/
+manual_backups/
+profiles.json
+
+# Python 缓存
+__pycache__/
+*.pyc
